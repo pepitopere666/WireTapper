@@ -7,11 +7,10 @@ from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
 
 ## API credentials (recommend setting these via environment variables)
-WIGLE_API_NAME = os.environ.get("WIGLE_API_NAME", "")
-WIGLE_API_TOKEN = os.environ.get("WIGLE_API_TOKEN", "")
-OPENCELLID_API_KEY = os.environ.get("OPENCELLID_API_KEY", "")
-SHODAN_API_KEY = os.environ.get("SHODAN_API_KEY", "")
-
+WIGLE_API_NAME = "your_wigle_api_name"
+WIGLE_API_TOKEN = "your_wigle_api_token"
+OPENCELLID_API_KEY = "your_opencellid_api_key"
+SHODAN_API_KEY = "your_shodan_api_key"
 
 # Dummy data for testing
 DUMMY_DATA = [
